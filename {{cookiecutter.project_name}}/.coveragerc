@@ -1,0 +1,8 @@
+[run]
+omit =
+    tests/*
+    */__init__.py
+    vulture_allowlist.py
+
+[report]
+show_missing = True
